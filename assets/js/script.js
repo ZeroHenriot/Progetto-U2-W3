@@ -54,7 +54,7 @@ const getHolyCard = function () {
     })
     .catch((err) => {
       hideSpinner()
-      console.log('Bucchinar, questo è il tuo errore:', err)
+      console.log('Errore:', err)
     })
 }
 
