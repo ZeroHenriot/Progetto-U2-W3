@@ -17,7 +17,7 @@ const deleteEvent = function () {
     })
       .then((res) => {
         if (res.ok) {
-          alert('EVENTO ELIMINATO')
+          alert('ELIMINATO')
           location.assign('./index.html')
         } else {
           alert("Problema con l'eliminazione dell'evento")
